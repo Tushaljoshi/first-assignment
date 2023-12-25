@@ -12,13 +12,9 @@ import matplotlib.pyplot as plt # used to creating static , animated and interac
 
 mapping_dict = dict(zip(range(0,10),range(0,10))) #this line of code create a dictionary using "zip" function and the "range" function
 
-mapping_dict
-
 for k in mapping_dict.keys(): #this loop iterates through all the keys in the 'mapping_dict'
 
   mapping_dict[k] = str(mapping_dict[k])
-
-mapping_dict
 
 for i in range(0,26): #loop that iterates over the values of'i'from 0 to 26
   mapping_dict[10+i] = chr(65+i) #this line new key_value pairs to the 'mapping_dict'

@@ -19,8 +19,6 @@ for k in mapping_dict.keys(): #this loop iterates through all the keys in the 'm
 for i in range(0,26): #loop that iterates over the values of'i'from 0 to 26
   mapping_dict[10+i] = chr(65+i) #this line new key_value pairs to the 'mapping_dict'
 
-mapping_dict
-
 sample_size = 5000000 #this variable is set to 5000000
 
 random_numbers = list() #the number of random string the code will generate
